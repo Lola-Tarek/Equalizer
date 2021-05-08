@@ -1,0 +1,810 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>856</width>
+    <height>568</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QScrollArea" name="scrollArea">
+      <property name="widgetResizable">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="scrollAreaWidgetContents">
+       <property name="geometry">
+        <rect>
+         <x>-458</x>
+         <y>0</y>
+         <width>1294</width>
+         <height>490</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <widget class="QFrame" name="frame">
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout">
+           <item>
+            <widget class="QFrame" name="frame_2">
+             <property name="minimumSize">
+              <size>
+               <width>750</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_3">
+              <item>
+               <widget class="QScrollArea" name="scrollArea_2">
+                <property name="widgetResizable">
+                 <bool>true</bool>
+                </property>
+                <widget class="QWidget" name="scrollAreaWidgetContents_5">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>0</y>
+                   <width>711</width>
+                   <height>880</height>
+                  </rect>
+                 </property>
+                 <layout class="QVBoxLayout" name="verticalLayout_4">
+                  <item>
+                   <widget class="QFrame" name="frame_9">
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>300</height>
+                     </size>
+                    </property>
+                    <property name="frameShape">
+                     <enum>QFrame::StyledPanel</enum>
+                    </property>
+                    <property name="frameShadow">
+                     <enum>QFrame::Raised</enum>
+                    </property>
+                    <layout class="QVBoxLayout" name="verticalLayout_18">
+                     <item>
+                      <widget class="QLabel" name="label_7">
+                       <property name="minimumSize">
+                        <size>
+                         <width>0</width>
+                         <height>11</height>
+                        </size>
+                       </property>
+                       <property name="font">
+                        <font>
+                         <pointsize>14</pointsize>
+                        </font>
+                       </property>
+                       <property name="text">
+                        <string>Before</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QFrame" name="frame_10">
+                       <property name="minimumSize">
+                        <size>
+                         <width>0</width>
+                         <height>240</height>
+                        </size>
+                       </property>
+                       <property name="frameShape">
+                        <enum>QFrame::StyledPanel</enum>
+                       </property>
+                       <property name="frameShadow">
+                        <enum>QFrame::Raised</enum>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QFrame" name="frame_5">
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>250</height>
+                     </size>
+                    </property>
+                    <property name="frameShape">
+                     <enum>QFrame::StyledPanel</enum>
+                    </property>
+                    <property name="frameShadow">
+                     <enum>QFrame::Raised</enum>
+                    </property>
+                    <layout class="QVBoxLayout" name="verticalLayout_19">
+                     <item>
+                      <widget class="QLabel" name="label_2">
+                       <property name="font">
+                        <font>
+                         <pointsize>14</pointsize>
+                        </font>
+                       </property>
+                       <property name="text">
+                        <string>Equalizer</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <layout class="QHBoxLayout" name="horizontalLayout_2">
+                       <item>
+                        <layout class="QVBoxLayout" name="verticalLayout_8">
+                         <item alignment="Qt::AlignHCenter">
+                          <widget class="QLabel" name="gain1">
+                           <property name="text">
+                            <string>TextLabel</string>
+                           </property>
+                          </widget>
+                         </item>
+                         <item alignment="Qt::AlignHCenter">
+                          <widget class="QSlider" name="eq_Slider_1">
+                           <property name="maximum">
+                            <number>5</number>
+                           </property>
+                           <property name="value">
+                            <number>1</number>
+                           </property>
+                           <property name="orientation">
+                            <enum>Qt::Vertical</enum>
+                           </property>
+                           <property name="tickPosition">
+                            <enum>QSlider::TicksBothSides</enum>
+                           </property>
+                           <property name="tickInterval">
+                            <number>1</number>
+                           </property>
+                          </widget>
+                         </item>
+                         <item alignment="Qt::AlignHCenter">
+                          <widget class="QLabel" name="freq_range1">
+                           <property name="text">
+                            <string>1st Band</string>
+                           </property>
+                          </widget>
+                         </item>
+                        </layout>
+                       </item>
+                       <item>
+                        <layout class="QVBoxLayout" name="verticalLayout_12">
+                         <item alignment="Qt::AlignHCenter">
+                          <widget class="QLabel" name="gain2">
+                           <property name="text">
+                            <string>TextLabel</string>
+                           </property>
+                          </widget>
+                         </item>
+                         <item alignment="Qt::AlignHCenter">
+                          <widget class="QSlider" name="eq_Slider_2">
+                           <property name="maximum">
+                            <number>5</number>
+                           </property>
+                           <property name="value">
+                            <number>1</number>
+                           </property>
+                           <property name="orientation">
+                            <enum>Qt::Vertical</enum>
+                           </property>
+                           <property name="tickPosition">
+                            <enum>QSlider::TicksBothSides</enum>
+                           </property>
+                           <property name="tickInterval">
+                            <number>1</number>
+                           </property>
+                          </widget>
+                         </item>
+                         <item alignment="Qt::AlignHCenter">
+                          <widget class="QLabel" name="freq_range2">
+                           <property name="text">
+                            <string>2nd Band</string>
+                           </property>
+                          </widget>
+                         </item>
+                        </layout>
+                       </item>
+                       <item>
+                        <layout class="QVBoxLayout" name="verticalLayout_10">
+                         <item alignment="Qt::AlignHCenter">
+                          <widget class="QLabel" name="gain3">
+                           <property name="text">
+                            <string>TextLabel</string>
+                           </property>
+                          </widget>
+                         </item>
+                         <item alignment="Qt::AlignHCenter">
+                          <widget class="QSlider" name="eq_Slider_3">
+                           <property name="maximum">
+                            <number>5</number>
+                           </property>
+                           <property name="value">
+                            <number>1</number>
+                           </property>
+                           <property name="orientation">
+                            <enum>Qt::Vertical</enum>
+                           </property>
+                           <property name="tickPosition">
+                            <enum>QSlider::TicksBothSides</enum>
+                           </property>
+                           <property name="tickInterval">
+                            <number>1</number>
+                           </property>
+                          </widget>
+                         </item>
+                         <item alignment="Qt::AlignHCenter">
+                          <widget class="QLabel" name="freq_range3">
+                           <property name="text">
+                            <string>3rd Band</string>
+                           </property>
+                          </widget>
+                         </item>
+                        </layout>
+                       </item>
+                       <item>
+                        <layout class="QVBoxLayout" name="verticalLayout_13">
+                         <item alignment="Qt::AlignHCenter">
+                          <widget class="QLabel" name="gain4">
+                           <property name="text">
+                            <string>TextLabel</string>
+                           </property>
+                          </widget>
+                         </item>
+                         <item alignment="Qt::AlignHCenter">
+                          <widget class="QSlider" name="eq_Slider_4">
+                           <property name="maximum">
+                            <number>5</number>
+                           </property>
+                           <property name="value">
+                            <number>1</number>
+                           </property>
+                           <property name="orientation">
+                            <enum>Qt::Vertical</enum>
+                           </property>
+                           <property name="tickPosition">
+                            <enum>QSlider::TicksBothSides</enum>
+                           </property>
+                           <property name="tickInterval">
+                            <number>1</number>
+                           </property>
+                          </widget>
+                         </item>
+                         <item alignment="Qt::AlignHCenter">
+                          <widget class="QLabel" name="freq_range4">
+                           <property name="text">
+                            <string>4th Band</string>
+                           </property>
+                          </widget>
+                         </item>
+                        </layout>
+                       </item>
+                       <item>
+                        <layout class="QVBoxLayout" name="verticalLayout_15">
+                         <item alignment="Qt::AlignHCenter">
+                          <widget class="QLabel" name="gain5">
+                           <property name="text">
+                            <string>TextLabel</string>
+                           </property>
+                          </widget>
+                         </item>
+                         <item alignment="Qt::AlignHCenter">
+                          <widget class="QSlider" name="eq_Slider_5">
+                           <property name="maximum">
+                            <number>5</number>
+                           </property>
+                           <property name="value">
+                            <number>1</number>
+                           </property>
+                           <property name="orientation">
+                            <enum>Qt::Vertical</enum>
+                           </property>
+                           <property name="tickPosition">
+                            <enum>QSlider::TicksBothSides</enum>
+                           </property>
+                           <property name="tickInterval">
+                            <number>1</number>
+                           </property>
+                          </widget>
+                         </item>
+                         <item alignment="Qt::AlignHCenter">
+                          <widget class="QLabel" name="freq_range5">
+                           <property name="text">
+                            <string>5th Band</string>
+                           </property>
+                          </widget>
+                         </item>
+                        </layout>
+                       </item>
+                       <item>
+                        <layout class="QVBoxLayout" name="verticalLayout_16">
+                         <item alignment="Qt::AlignHCenter">
+                          <widget class="QLabel" name="gain6">
+                           <property name="text">
+                            <string>TextLabel</string>
+                           </property>
+                          </widget>
+                         </item>
+                         <item alignment="Qt::AlignHCenter">
+                          <widget class="QSlider" name="eq_Slider_6">
+                           <property name="maximum">
+                            <number>5</number>
+                           </property>
+                           <property name="value">
+                            <number>1</number>
+                           </property>
+                           <property name="orientation">
+                            <enum>Qt::Vertical</enum>
+                           </property>
+                           <property name="tickPosition">
+                            <enum>QSlider::TicksBothSides</enum>
+                           </property>
+                           <property name="tickInterval">
+                            <number>1</number>
+                           </property>
+                          </widget>
+                         </item>
+                         <item alignment="Qt::AlignHCenter">
+                          <widget class="QLabel" name="freq_range6">
+                           <property name="text">
+                            <string>6th Band</string>
+                           </property>
+                          </widget>
+                         </item>
+                        </layout>
+                       </item>
+                       <item>
+                        <layout class="QVBoxLayout" name="verticalLayout_14">
+                         <item alignment="Qt::AlignHCenter">
+                          <widget class="QLabel" name="gain7">
+                           <property name="text">
+                            <string>TextLabel</string>
+                           </property>
+                          </widget>
+                         </item>
+                         <item alignment="Qt::AlignHCenter">
+                          <widget class="QSlider" name="eq_Slider_7">
+                           <property name="maximum">
+                            <number>5</number>
+                           </property>
+                           <property name="value">
+                            <number>1</number>
+                           </property>
+                           <property name="orientation">
+                            <enum>Qt::Vertical</enum>
+                           </property>
+                           <property name="tickPosition">
+                            <enum>QSlider::TicksBothSides</enum>
+                           </property>
+                           <property name="tickInterval">
+                            <number>1</number>
+                           </property>
+                          </widget>
+                         </item>
+                         <item alignment="Qt::AlignHCenter">
+                          <widget class="QLabel" name="freq_range7">
+                           <property name="text">
+                            <string>7th Band</string>
+                           </property>
+                          </widget>
+                         </item>
+                        </layout>
+                       </item>
+                       <item>
+                        <layout class="QVBoxLayout" name="verticalLayout_11">
+                         <item alignment="Qt::AlignHCenter">
+                          <widget class="QLabel" name="gain8">
+                           <property name="text">
+                            <string>TextLabel</string>
+                           </property>
+                          </widget>
+                         </item>
+                         <item alignment="Qt::AlignHCenter">
+                          <widget class="QSlider" name="eq_Slider_8">
+                           <property name="maximum">
+                            <number>5</number>
+                           </property>
+                           <property name="value">
+                            <number>1</number>
+                           </property>
+                           <property name="orientation">
+                            <enum>Qt::Vertical</enum>
+                           </property>
+                           <property name="tickInterval">
+                            <number>1</number>
+                           </property>
+                          </widget>
+                         </item>
+                         <item alignment="Qt::AlignHCenter">
+                          <widget class="QLabel" name="freq_range8">
+                           <property name="text">
+                            <string>8th Band</string>
+                           </property>
+                          </widget>
+                         </item>
+                        </layout>
+                       </item>
+                       <item>
+                        <layout class="QVBoxLayout" name="verticalLayout_9">
+                         <item alignment="Qt::AlignHCenter">
+                          <widget class="QLabel" name="gain9">
+                           <property name="text">
+                            <string>TextLabel</string>
+                           </property>
+                          </widget>
+                         </item>
+                         <item alignment="Qt::AlignHCenter">
+                          <widget class="QSlider" name="eq_Slider_9">
+                           <property name="maximum">
+                            <number>5</number>
+                           </property>
+                           <property name="value">
+                            <number>1</number>
+                           </property>
+                           <property name="orientation">
+                            <enum>Qt::Vertical</enum>
+                           </property>
+                           <property name="tickPosition">
+                            <enum>QSlider::TicksBothSides</enum>
+                           </property>
+                           <property name="tickInterval">
+                            <number>1</number>
+                           </property>
+                          </widget>
+                         </item>
+                         <item alignment="Qt::AlignHCenter">
+                          <widget class="QLabel" name="freq_range9">
+                           <property name="text">
+                            <string>9th Band</string>
+                           </property>
+                          </widget>
+                         </item>
+                        </layout>
+                       </item>
+                       <item>
+                        <layout class="QVBoxLayout" name="verticalLayout_5">
+                         <item alignment="Qt::AlignHCenter">
+                          <widget class="QLabel" name="gain10">
+                           <property name="text">
+                            <string>TextLabel</string>
+                           </property>
+                          </widget>
+                         </item>
+                         <item alignment="Qt::AlignHCenter">
+                          <widget class="QSlider" name="eq_Slider_10">
+                           <property name="maximum">
+                            <number>5</number>
+                           </property>
+                           <property name="value">
+                            <number>1</number>
+                           </property>
+                           <property name="orientation">
+                            <enum>Qt::Vertical</enum>
+                           </property>
+                           <property name="tickPosition">
+                            <enum>QSlider::TicksBothSides</enum>
+                           </property>
+                           <property name="tickInterval">
+                            <number>1</number>
+                           </property>
+                          </widget>
+                         </item>
+                         <item alignment="Qt::AlignHCenter">
+                          <widget class="QLabel" name="freq_range10">
+                           <property name="text">
+                            <string>10th Band</string>
+                           </property>
+                          </widget>
+                         </item>
+                        </layout>
+                       </item>
+                      </layout>
+                     </item>
+                    </layout>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QFrame" name="frame_6">
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>300</height>
+                     </size>
+                    </property>
+                    <property name="frameShape">
+                     <enum>QFrame::StyledPanel</enum>
+                    </property>
+                    <property name="frameShadow">
+                     <enum>QFrame::Raised</enum>
+                    </property>
+                    <layout class="QVBoxLayout" name="verticalLayout_17">
+                     <item>
+                      <widget class="QLabel" name="label_4">
+                       <property name="minimumSize">
+                        <size>
+                         <width>0</width>
+                         <height>11</height>
+                        </size>
+                       </property>
+                       <property name="font">
+                        <font>
+                         <pointsize>14</pointsize>
+                        </font>
+                       </property>
+                       <property name="text">
+                        <string>After</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QFrame" name="frame_7">
+                       <property name="minimumSize">
+                        <size>
+                         <width>0</width>
+                         <height>240</height>
+                        </size>
+                       </property>
+                       <property name="frameShape">
+                        <enum>QFrame::StyledPanel</enum>
+                       </property>
+                       <property name="frameShadow">
+                        <enum>QFrame::Raised</enum>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QFrame" name="frame_3">
+             <property name="minimumSize">
+              <size>
+               <width>500</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_23">
+              <item>
+               <widget class="QScrollArea" name="scrollArea_3">
+                <property name="widgetResizable">
+                 <bool>true</bool>
+                </property>
+                <widget class="QWidget" name="scrollAreaWidgetContents_6">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>0</y>
+                   <width>478</width>
+                   <height>430</height>
+                  </rect>
+                 </property>
+                 <layout class="QVBoxLayout" name="verticalLayout_22">
+                  <item>
+                   <widget class="QLabel" name="label_3">
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>10</height>
+                     </size>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <pointsize>16</pointsize>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string>Spectrogram</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QWidget" name="widget" native="true">
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>250</height>
+                     </size>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <layout class="QHBoxLayout" name="horizontalLayout_4">
+                    <item>
+                     <layout class="QVBoxLayout" name="verticalLayout_21">
+                      <item>
+                       <widget class="QRadioButton" name="radioButton1">
+                        <property name="text">
+                         <string>Purples</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QRadioButton" name="radioButton2">
+                        <property name="text">
+                         <string>Blues</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QRadioButton" name="radioButton3">
+                        <property name="text">
+                         <string>Greens</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QRadioButton" name="radioButton4">
+                        <property name="text">
+                         <string>Oranges</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QRadioButton" name="radioButton5">
+                        <property name="text">
+                         <string>Cool</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QVBoxLayout" name="verticalLayout_24">
+                      <item alignment="Qt::AlignHCenter">
+                       <widget class="QLabel" name="spec_min_freq">
+                        <property name="text">
+                         <string>TextLabel</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item alignment="Qt::AlignHCenter">
+                       <widget class="QSlider" name="specSlider1">
+                        <property name="maximum">
+                         <number>10000</number>
+                        </property>
+                        <property name="singleStep">
+                         <number>1000</number>
+                        </property>
+                        <property name="pageStep">
+                         <number>1000</number>
+                        </property>
+                        <property name="value">
+                         <number>0</number>
+                        </property>
+                        <property name="orientation">
+                         <enum>Qt::Vertical</enum>
+                        </property>
+                        <property name="tickPosition">
+                         <enum>QSlider::TicksBothSides</enum>
+                        </property>
+                        <property name="tickInterval">
+                         <number>0</number>
+                        </property>
+                       </widget>
+                      </item>
+                      <item alignment="Qt::AlignHCenter">
+                       <widget class="QLabel" name="specLabel1">
+                        <property name="text">
+                         <string>Minimum Frequency</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QVBoxLayout" name="verticalLayout_25">
+                      <item alignment="Qt::AlignHCenter">
+                       <widget class="QLabel" name="spec_max_freq">
+                        <property name="text">
+                         <string>TextLabel</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item alignment="Qt::AlignHCenter">
+                       <widget class="QSlider" name="specSlider2">
+                        <property name="minimum">
+                         <number>20000</number>
+                        </property>
+                        <property name="maximum">
+                         <number>30000</number>
+                        </property>
+                        <property name="singleStep">
+                         <number>1000</number>
+                        </property>
+                        <property name="pageStep">
+                         <number>1000</number>
+                        </property>
+                        <property name="value">
+                         <number>20000</number>
+                        </property>
+                        <property name="tracking">
+                         <bool>true</bool>
+                        </property>
+                        <property name="orientation">
+                         <enum>Qt::Vertical</enum>
+                        </property>
+                        <property name="invertedAppearance">
+                         <bool>false</bool>
+                        </property>
+                        <property name="invertedControls">
+                         <bool>false</bool>
+                        </property>
+                        <property name="tickPosition">
+                         <enum>QSlider::TicksBothSides</enum>
+                        </property>
+                       </widget>
+                      </item>
+                      <item alignment="Qt::AlignHCenter">
+                       <widget class="QLabel" name="specLabel2">
+                        <property name="text">
+                         <string>Maximum Frequency</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                   </layout>
+                  </item>
+                 </layout>
+                </widget>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>856</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
